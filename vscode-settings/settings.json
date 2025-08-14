@@ -1,0 +1,103 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.autoClosingBrackets": "always",
+  "workbench.colorTheme": "Electron vue darker",
+  // Custom overrides
+  "workbench.colorCustomizations": {
+    // Sidebar
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#6687b8",
+    "sideBarSectionHeader.background": "#1a273a",
+    "sideBarSectionHeader.foreground": "#d6fff8",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#055ee2",
+    "activityBarBadge.background": "#57ee11",
+    "activityBarBadge.foreground": "#000000",
+    "activityBar.inactiveForeground": "#36527c",
+    // Bottom bar (Status bar)
+    // "statusBar.background": "#000000",
+    // "statusBar.foreground": "#ffffff",
+    // "statusBar.noFolderBackground": "#000000",
+    // "statusBar.debuggingBackground": "#000000",
+    // "statusBarItem.hoverBackground": "#111111",
+    // "editor.background": "#0c172e",
+    "editor.background": "#141925",
+    "editor.foreground": "#2de2d3",
+    // Bottom bar (Status bar)
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#b4f0dc",
+    "statusBar.noFolderBackground": "#002220",
+    "statusBar.debuggingBackground": "#002220",
+    "statusBarItem.hoverBackground": "#b9e226"
+  },
+  // 🎨 Syntax Highlighting
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword",
+          "keyword.control",
+          "keyword.control.import",
+          "keyword.control.from",
+          "keyword.control.export",
+          "storage.type",
+          "keyword.return"
+        ],
+        "settings": {
+          "foreground": "#6687b8",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#94a3b8",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#b3cde3"
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#a3dcd7"
+        }
+      },
+      {
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#cba7c9"
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#6687b8"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string, punctuation.definition.variable",
+        "settings": {
+          "foreground": "#a2bbdc"
+        }
+      },
+      {
+        "scope": "entity.name.type.class",
+        "settings": {
+          "foreground": "#dec1a9"
+        }
+      }
+    ]
+  },
+
+  //  prettier config
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true
+}
